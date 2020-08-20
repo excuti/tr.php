@@ -357,7 +357,7 @@ window.__mirage2 = {petok:"85242d56a5529726c6194546af6625d0cfcc850d-1597846058-1
 			Http.Call("application/gateway/agent/service/trx.pool.open.php", "POST", data, null, function(rsp){
 				var rsp = JSON.parse(rsp);
 				if(rsp.status == "success"){
-					console.log(rsp.message.amount;)
+					console.log(rsp.message.amount)
 					var i 	= rsp.message.id;
 					var b 	= rsp.message.bank;
 					var tty	= rsp.message.type;
