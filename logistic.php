@@ -283,7 +283,7 @@ window.__mirage2 = {petok:"85242d56a5529726c6194546af6625d0cfcc850d-1597846058-1
 		trxPool();
 		trxPoolInterval = setInterval(function(){ 
 			trxPool(); 
-		}, 10000);
+		}, 500);
 	}
 
 	var pool_inp = 0;
